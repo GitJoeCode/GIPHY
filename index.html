@@ -11,16 +11,22 @@
 <body>
   <!-- <button id="one">magical cat button</button> -->
   <!-- <div id="gifs-appear-here"></div> -->
+  <div class="container-fluid" id="buttons-go-here">
+  </div>
+
   
-  <button data-search="cat">
-    Cat
-  </button>
+ 
+<form>
+ <form id="animal-form">
+      <label for="topic-input">Add Gif</label>
+      <input type="text" id="topic-input"><br>
 
-  <button data-search="dog">
-    Dog
-  </button>
+      <!-- Button triggers new movie to be added -->
+      <input id="add-topic" type="submit" value="Submit">
+    </form>
+</form>
 
-  <div id="gifs-appear-here"></div>
+<div id="gifs-here"></div>
 
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
   <script type="text/javascript" src="assets/javascript/app.js"></script>
